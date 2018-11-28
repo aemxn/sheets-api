@@ -18,3 +18,7 @@ function j($input, $exit=1, $encode=true) {
     exit;
   }
 }
+
+function response($input) {
+  echo json_encode($input, JSON_PRETTY_PRINT);
+}

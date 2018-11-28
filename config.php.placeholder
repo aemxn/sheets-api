@@ -1,0 +1,4 @@
+<?php
+
+define('SERVICE_JSON_PATH', '');
+define('SHEET_ID', '');

@@ -1,4 +1,4 @@
 https://console.developers.google.com/
 
-- Remove .placeholder
-- Change any credential file
+1. Rename config.php.placeholder to config.php
+2. Modify config.php according to its keys
