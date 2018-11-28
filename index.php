@@ -40,6 +40,8 @@ for ($row = 0; $row < $total_row; $row++) {
         'person' => $values[$row][PERSON],
         'start_time' => $values[$row][START_TIME],
         'end_time' => $values[$row][END_TIME],
+        'notes' => $values[$row][NOTES],
+        'phone_no' => $values[$row][PHONE_NO],
         'event_id' => '1'
     );
 }
@@ -63,6 +65,8 @@ foreach($res as $key => $val) {
         $res[$key][KEY_NUMBER] = count($res[$key][KEY_DAY_EVENTS]);
         $i++;
     }
+
+    $res[$key][KEY_DAY_EVENTS] = array_values($res[$key][KEY_DAY_EVENTS]); // reset key
 }
 
 echo response($res);

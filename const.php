@@ -9,6 +9,8 @@ define('PACKAGE', '3');
 define('PERSON', '4');
 define('START_TIME', '5');
 define('END_TIME', '6');
+define('NOTES', '7');
+define('PHONE_NO', '8');
 
 define('KEY_DAY_EVENTS', 'dayEvents');
 define('KEY_DATE', 'date');
